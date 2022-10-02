@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    }
+    
+    
+    /* geral */
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .row{
+        margin: 0;
+    }
+    
+    .container{
+        padding: 70px 0;
+    }
+    
+    p, li{
+        color: black;
+        font-size: 14px;
+    }
+    
+    /* barra */
+    
+    .header, .navbar{
+        background-color: #52c175;
+    }
+    
+    #nav-container{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    #logo{
+        width: 45px;
+    }
+    
+    .navbar-brand{
+        padding: 0;
+        color:#fff;
+        font-size: 20px;
+
+    }
+    
+    
+    #navbar-links a{
+        color: #fff;
+        font-size: 18px;
+        padding: 25px;
+    }
+    
+    #navbar-links a:hover{
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    .navbar-expand-lg .navbar-nav .navbar-link{
+        padding: 1rem .8rem;
+    }
+    
+    .fixed-top{
+        padding-left: 1%;
+        padding-right: 2%;
+        height: 10%;
+    }
+    
+    /* capa */
+     .slides{
+        background-size: cover;/*é o que permite que a imagem se adapte ao tamanho da tela*/
+        display:flex;
+        max-width: 100%;
+        max-height: 100%
+;
+        flex-direction: column;
+    }
+
+
+    /*Altera toda a flexbox*/
+    .projeto{
+        position: relative;
+        display:flex;
+        align-items: flex-start;
+        flex-wrap: wrap;/*quebra os itens do flexbox em uma outra linha*/
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+        padding: 40px;
+        background-color: #fff;
+    } 
+        .projeto .proje{
+            position: relative;
+            width:100%;
+            height: 100%;
+            padding-left: 20px;
+            padding-right: 70px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+    
+        .projeto .proje .imagem{
+            height: 100%;
+            width: 100%;
+            flex: 0 0 10px;	
+            padding-top: 10px;
+        }
+        
+        .projeto .proje .texto{
+            margin-left: 10px;
+            width: 65%;
+            height: 95%;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: 60;
+            /* border-style: solid; */
+            border-color: #000;
+        }
+    
+            .projeto .proje .texto p{
+            color:rgb(0, 0, 0);
+            font-size: 30px;
+            flex-wrap: wrap;
+            padding-top: 40px;
+            
+        }
+    
+        .projeto .proje .imagem img{
+            width:300px;
+            height:300px;
+    
+         }
+    
+    /* MAPA */
+    
+    body .mapa{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 430px;
+        
+    }
+    
+    .mapa{
+        position: relative;
+        display:flex;
+        align-items: flex-start;
+        flex-wrap: wrap;/*quebra os itens do flexbox em uma outra linha*/
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+        padding: 40px;
+        background-color:#fff;
+        
+    } 
+    
+    img {
+        max-width: 100%;
+        max-height: 100%;
+       }
+
+    .imagem {
+        width: auto; 
+        max-height: 100%; 
+        margin-left: 50px;
+        border: #000000 solid 2.5px;
+    }
+
+    /* FOOTER */
+    
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding: 45px;
+    }
+    
+    .nav-link px-2 text-muted{
+        font-size: 200px;
+    }
+    
+    .px-2 {
+        padding-right: .5rem!important;
+        padding-left: .5rem!important;
+        font-size: 18px;
+    }
+    
+    .mb-0 {
+        margin-bottom: 0!important;
+        font-size: 18px;
+    }
+    
+    .footer{
+        background-color: #52c175;
+    }
